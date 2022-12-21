@@ -1,0 +1,66 @@
+{
+  "runtimeTarget": {
+    "name": ".NETStandard,Version=v2.1/",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETStandard,Version=v2.1": {},
+    ".NETStandard,Version=v2.1/": {
+      "PDFLibrary/1.0.0": {
+        "dependencies": {
+          "Dawn.Guard": "1.12.0",
+          "Xamarin.Forms": "3.3.0.967583"
+        },
+        "runtime": {
+          "PDFLibrary.dll": {}
+        }
+      },
+      "Dawn.Guard/1.12.0": {
+        "runtime": {
+          "lib/netstandard2.0/Dawn.Guard.dll": {
+            "assemblyVersion": "1.12.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "Xamarin.Forms/3.3.0.967583": {
+        "runtime": {
+          "lib/netstandard2.0/Xamarin.Forms.Core.dll": {
+            "assemblyVersion": "2.0.0.0",
+            "fileVersion": "2.0.0.0"
+          },
+          "lib/netstandard2.0/Xamarin.Forms.Platform.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          },
+          "lib/netstandard2.0/Xamarin.Forms.Xaml.dll": {
+            "assemblyVersion": "2.0.0.0",
+            "fileVersion": "2.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "PDFLibrary/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Dawn.Guard/1.12.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-niOoFTH4DO3/c0rBBHgCeWUCzSpgYZLI4+TxiwPyYP0bxZrxSokhyztx5QdsvHfB6Y3ovhK6vYwZr2qD8JdiuQ==",
+      "path": "dawn.guard/1.12.0",
+      "hashPath": "dawn.guard.1.12.0.nupkg.sha512"
+    },
+    "Xamarin.Forms/3.3.0.967583": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-+Y5j017bAHyZquRMj4vWyudJeJw7xQk+8BUNpMXg91ttO7sGWGGd6TuAuJubF0iEihzMDY1McZV8ZLZCjqjwUQ==",
+      "path": "xamarin.forms/3.3.0.967583",
+      "hashPath": "xamarin.forms.3.3.0.967583.nupkg.sha512"
+    }
+  }
+}

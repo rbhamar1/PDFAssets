@@ -2,6 +2,19 @@
   "version": 3,
   "targets": {
     "Xamarin.iOS,Version=v1.0": {
+      "Dawn.Guard/1.12.0": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Dawn.Guard.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Dawn.Guard.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "Xamarin.Forms/3.3.0.967583": {
         "type": "package",
         "compile": {
@@ -152,10 +165,37 @@
         },
         "runtime": {
           "bin/placeholder/PDFAsset.dll": {}
+        }
+      },
+      "PDFLibrary/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.1",
+        "dependencies": {
+          "Dawn.Guard": "1.12.0",
+          "Xamarin.Forms": "3.3.0.967583"
+        },
+        "compile": {
+          "bin/placeholder/PDFLibrary.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/PDFLibrary.dll": {}
         }
       }
     },
     "Xamarin.iOS,Version=v1.0/win": {
+      "Dawn.Guard/1.12.0": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Dawn.Guard.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Dawn.Guard.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "Xamarin.Forms/3.3.0.967583": {
         "type": "package",
         "compile": {
@@ -306,10 +346,37 @@
         },
         "runtime": {
           "bin/placeholder/PDFAsset.dll": {}
+        }
+      },
+      "PDFLibrary/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.1",
+        "dependencies": {
+          "Dawn.Guard": "1.12.0",
+          "Xamarin.Forms": "3.3.0.967583"
+        },
+        "compile": {
+          "bin/placeholder/PDFLibrary.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/PDFLibrary.dll": {}
         }
       }
     },
     "Xamarin.iOS,Version=v1.0/win-x64": {
+      "Dawn.Guard/1.12.0": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Dawn.Guard.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Dawn.Guard.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "Xamarin.Forms/3.3.0.967583": {
         "type": "package",
         "compile": {
@@ -460,10 +527,37 @@
         },
         "runtime": {
           "bin/placeholder/PDFAsset.dll": {}
+        }
+      },
+      "PDFLibrary/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.1",
+        "dependencies": {
+          "Dawn.Guard": "1.12.0",
+          "Xamarin.Forms": "3.3.0.967583"
+        },
+        "compile": {
+          "bin/placeholder/PDFLibrary.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/PDFLibrary.dll": {}
         }
       }
     },
     "Xamarin.iOS,Version=v1.0/win-x86": {
+      "Dawn.Guard/1.12.0": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Dawn.Guard.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Dawn.Guard.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "Xamarin.Forms/3.3.0.967583": {
         "type": "package",
         "compile": {
@@ -614,11 +708,40 @@
         },
         "runtime": {
           "bin/placeholder/PDFAsset.dll": {}
+        }
+      },
+      "PDFLibrary/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.1",
+        "dependencies": {
+          "Dawn.Guard": "1.12.0",
+          "Xamarin.Forms": "3.3.0.967583"
+        },
+        "compile": {
+          "bin/placeholder/PDFLibrary.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/PDFLibrary.dll": {}
         }
       }
     }
   },
   "libraries": {
+    "Dawn.Guard/1.12.0": {
+      "sha512": "niOoFTH4DO3/c0rBBHgCeWUCzSpgYZLI4+TxiwPyYP0bxZrxSokhyztx5QdsvHfB6Y3ovhK6vYwZr2qD8JdiuQ==",
+      "type": "package",
+      "path": "dawn.guard/1.12.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "dawn.guard.1.12.0.nupkg.sha512",
+        "dawn.guard.nuspec",
+        "lib/netstandard1.0/Dawn.Guard.dll",
+        "lib/netstandard1.0/Dawn.Guard.xml",
+        "lib/netstandard2.0/Dawn.Guard.dll",
+        "lib/netstandard2.0/Dawn.Guard.xml"
+      ]
+    },
     "Xamarin.Forms/3.3.0.967583": {
       "sha512": "+Y5j017bAHyZquRMj4vWyudJeJw7xQk+8BUNpMXg91ttO7sGWGGd6TuAuJubF0iEihzMDY1McZV8ZLZCjqjwUQ==",
       "type": "package",
@@ -769,11 +892,18 @@
       "type": "project",
       "path": "../PDFAsset/PDFAsset.csproj",
       "msbuildProject": "../PDFAsset/PDFAsset.csproj"
+    },
+    "PDFLibrary/1.0.0": {
+      "type": "project",
+      "path": "../../PDFLibrary/PDFLibrary.csproj",
+      "msbuildProject": "../../PDFLibrary/PDFLibrary.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "Xamarin.iOS,Version=v1.0": [
+      "Dawn.Guard >= 1.12.0",
       "PDFAsset >= 1.0.0",
+      "PDFLibrary >= 1.0.0",
       "Xamarin.Forms >= 3.3.0.967583"
     ]
   },
@@ -784,14 +914,14 @@
     "version": "1.0.0",
     "restore": {
       "projectUniqueName": "/Users/bharath/Desktop/PDFAssets/PDFAsset/PDFAsset.iOS/PDFAsset.iOS.csproj",
-      "projectName": "PDFAsset.iOS",
+      "projectName": "PDFAsset.iOS.csproj",
       "projectPath": "/Users/bharath/Desktop/PDFAssets/PDFAsset/PDFAsset.iOS/PDFAsset.iOS.csproj",
       "packagesPath": "/Users/bharath/.nuget/packages/",
       "outputPath": "/Users/bharath/Desktop/PDFAssets/PDFAsset/PDFAsset.iOS/obj/",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "configFilePaths": [
-        "/Users/bharath/.config/NuGet/NuGet.Config"
+        "/Users/bharath/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "xamarinios10"
@@ -804,6 +934,9 @@
           "projectReferences": {
             "/Users/bharath/Desktop/PDFAssets/PDFAsset/PDFAsset/PDFAsset.csproj": {
               "projectPath": "/Users/bharath/Desktop/PDFAssets/PDFAsset/PDFAsset/PDFAsset.csproj"
+            },
+            "/Users/bharath/Desktop/PDFAssets/PDFLibrary/PDFLibrary.csproj": {
+              "projectPath": "/Users/bharath/Desktop/PDFAssets/PDFLibrary/PDFLibrary.csproj"
             }
           }
         }
@@ -812,6 +945,10 @@
     "frameworks": {
       "xamarinios10": {
         "dependencies": {
+          "Dawn.Guard": {
+            "target": "Package",
+            "version": "[1.12.0, )"
+          },
           "Xamarin.Forms": {
             "target": "Package",
             "version": "[3.3.0.967583, )"

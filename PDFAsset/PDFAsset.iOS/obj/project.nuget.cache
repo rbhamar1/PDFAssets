@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "sQRZP/dIfPwy/uDk0Z0FJqhc/Lk7H4wnsTWEvNy1A8UWDPPUugUoC9S737CGFAU6Bt+z45VaoNBO37dvmyBirQ==",
+  "dgSpecHash": "wVCg+m0IvLY4uP8TSGvWXQY+84OpyUdfQwhGeleWqkJS2U8rlieVos5mDtvqf0EpvwcJki4LkSSouvNeuR2d8w==",
   "success": true,
   "projectFilePath": "/Users/bharath/Desktop/PDFAssets/PDFAsset/PDFAsset.iOS/PDFAsset.iOS.csproj",
   "expectedPackageFiles": [
+    "/Users/bharath/.nuget/packages/dawn.guard/1.12.0/dawn.guard.1.12.0.nupkg.sha512",
     "/Users/bharath/.nuget/packages/xamarin.forms/3.3.0.967583/xamarin.forms.3.3.0.967583.nupkg.sha512"
   ],
   "logs": []

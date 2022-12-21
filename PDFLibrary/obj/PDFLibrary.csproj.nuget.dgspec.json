@@ -37,6 +37,16 @@
       "frameworks": {
         "netstandard2.1": {
           "targetAlias": "netstandard2.1",
+          "dependencies": {
+            "Dawn.Guard": {
+              "target": "Package",
+              "version": "[1.12.0, )"
+            },
+            "Xamarin.Forms": {
+              "target": "Package",
+              "version": "[3.3.0.967583, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

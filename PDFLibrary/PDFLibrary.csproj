@@ -7,4 +7,9 @@
         <LangVersion>default</LangVersion>
     </PropertyGroup>
 
+    <ItemGroup>
+      <PackageReference Include="Dawn.Guard" Version="1.12.0" />
+      <PackageReference Include="Xamarin.Forms" Version="3.3.0.967583" />
+    </ItemGroup>
+
 </Project>
