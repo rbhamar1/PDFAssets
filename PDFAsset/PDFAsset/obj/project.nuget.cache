@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "/msE5ezuHE2gFXXJvOAGS7yV0Tyl551QlBALaMDLCMQh8H9IspTCUGPION+jinnh32GF5GWsqRoNAg4b62YNHg==",
+  "success": true,
+  "projectFilePath": "/Users/rahulbhamare/Documents/Rahul Bhamare/PDFAsset/PDFAsset/PDFAsset/PDFAsset.csproj",
+  "expectedPackageFiles": [
+    "/Users/rahulbhamare/.nuget/packages/microsoft.netcore.platforms/1.1.0/microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "/Users/rahulbhamare/.nuget/packages/netstandard.library/2.0.3/netstandard.library.2.0.3.nupkg.sha512",
+    "/Users/rahulbhamare/.nuget/packages/xamarin.forms/3.3.0.967583/xamarin.forms.3.3.0.967583.nupkg.sha512"
+  ],
+  "logs": []
+}

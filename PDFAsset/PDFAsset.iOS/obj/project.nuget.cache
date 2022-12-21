@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "yjGd7CxKh3qYqwTQbG4RDHRDSfIh9G9V+cjklELIEFjBdfKAhtm+Q9LwxXK1kkdHtUCuQkoL3zK/7epznMo3SQ==",
+  "success": true,
+  "projectFilePath": "/Users/rahulbhamare/Documents/Rahul Bhamare/PDFAsset/PDFAsset/PDFAsset.iOS/PDFAsset.iOS.csproj",
+  "expectedPackageFiles": [
+    "/Users/rahulbhamare/.nuget/packages/xamarin.forms/3.3.0.967583/xamarin.forms.3.3.0.967583.nupkg.sha512"
+  ],
+  "logs": []
+}
