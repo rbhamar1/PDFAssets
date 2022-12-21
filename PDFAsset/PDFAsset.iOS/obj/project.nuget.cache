@@ -1,10 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "yjGd7CxKh3qYqwTQbG4RDHRDSfIh9G9V+cjklELIEFjBdfKAhtm+Q9LwxXK1kkdHtUCuQkoL3zK/7epznMo3SQ==",
+  "dgSpecHash": "sQRZP/dIfPwy/uDk0Z0FJqhc/Lk7H4wnsTWEvNy1A8UWDPPUugUoC9S737CGFAU6Bt+z45VaoNBO37dvmyBirQ==",
   "success": true,
-  "projectFilePath": "/Users/rahulbhamare/Documents/Rahul Bhamare/PDFAsset/PDFAsset/PDFAsset.iOS/PDFAsset.iOS.csproj",
+  "projectFilePath": "/Users/bharath/Desktop/PDFAssets/PDFAsset/PDFAsset.iOS/PDFAsset.iOS.csproj",
   "expectedPackageFiles": [
-    "/Users/rahulbhamare/.nuget/packages/xamarin.forms/3.3.0.967583/xamarin.forms.3.3.0.967583.nupkg.sha512"
+    "/Users/bharath/.nuget/packages/xamarin.forms/3.3.0.967583/xamarin.forms.3.3.0.967583.nupkg.sha512"
   ],
   "logs": []
 }

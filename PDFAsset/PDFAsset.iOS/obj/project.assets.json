@@ -778,20 +778,20 @@
     ]
   },
   "packageFolders": {
-    "/Users/rahulbhamare/.nuget/packages/": {}
+    "/Users/bharath/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/rahulbhamare/Documents/Rahul Bhamare/PDFAsset/PDFAsset/PDFAsset.iOS/PDFAsset.iOS.csproj",
-      "projectName": "PDFAsset.iOS.csproj",
-      "projectPath": "/Users/rahulbhamare/Documents/Rahul Bhamare/PDFAsset/PDFAsset/PDFAsset.iOS/PDFAsset.iOS.csproj",
-      "packagesPath": "/Users/rahulbhamare/.nuget/packages/",
-      "outputPath": "/Users/rahulbhamare/Documents/Rahul Bhamare/PDFAsset/PDFAsset/PDFAsset.iOS/obj/",
+      "projectUniqueName": "/Users/bharath/Desktop/PDFAssets/PDFAsset/PDFAsset.iOS/PDFAsset.iOS.csproj",
+      "projectName": "PDFAsset.iOS",
+      "projectPath": "/Users/bharath/Desktop/PDFAssets/PDFAsset/PDFAsset.iOS/PDFAsset.iOS.csproj",
+      "packagesPath": "/Users/bharath/.nuget/packages/",
+      "outputPath": "/Users/bharath/Desktop/PDFAssets/PDFAsset/PDFAsset.iOS/obj/",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "configFilePaths": [
-        "/Users/rahulbhamare/.nuget/NuGet/NuGet.Config"
+        "/Users/bharath/.config/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "xamarinios10"
@@ -802,8 +802,8 @@
       "frameworks": {
         "xamarinios10": {
           "projectReferences": {
-            "/Users/rahulbhamare/Documents/Rahul Bhamare/PDFAsset/PDFAsset/PDFAsset/PDFAsset.csproj": {
-              "projectPath": "/Users/rahulbhamare/Documents/Rahul Bhamare/PDFAsset/PDFAsset/PDFAsset/PDFAsset.csproj"
+            "/Users/bharath/Desktop/PDFAssets/PDFAsset/PDFAsset/PDFAsset.csproj": {
+              "projectPath": "/Users/bharath/Desktop/PDFAssets/PDFAsset/PDFAsset/PDFAsset.csproj"
             }
           }
         }

@@ -1,21 +1,21 @@
 {
   "format": 1,
   "restore": {
-    "/Users/rahulbhamare/Documents/Rahul Bhamare/PDFAsset/PDFAsset/PDFAsset.iOS/PDFAsset.iOS.csproj": {}
+    "/Users/bharath/Desktop/PDFAssets/PDFAsset/PDFAsset.iOS/PDFAsset.iOS.csproj": {}
   },
   "projects": {
-    "/Users/rahulbhamare/Documents/Rahul Bhamare/PDFAsset/PDFAsset/PDFAsset.iOS/PDFAsset.iOS.csproj": {
+    "/Users/bharath/Desktop/PDFAssets/PDFAsset/PDFAsset.iOS/PDFAsset.iOS.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/rahulbhamare/Documents/Rahul Bhamare/PDFAsset/PDFAsset/PDFAsset.iOS/PDFAsset.iOS.csproj",
-        "projectName": "PDFAsset.iOS.csproj",
-        "projectPath": "/Users/rahulbhamare/Documents/Rahul Bhamare/PDFAsset/PDFAsset/PDFAsset.iOS/PDFAsset.iOS.csproj",
-        "packagesPath": "/Users/rahulbhamare/.nuget/packages/",
-        "outputPath": "/Users/rahulbhamare/Documents/Rahul Bhamare/PDFAsset/PDFAsset/PDFAsset.iOS/obj/",
+        "projectUniqueName": "/Users/bharath/Desktop/PDFAssets/PDFAsset/PDFAsset.iOS/PDFAsset.iOS.csproj",
+        "projectName": "PDFAsset.iOS",
+        "projectPath": "/Users/bharath/Desktop/PDFAssets/PDFAsset/PDFAsset.iOS/PDFAsset.iOS.csproj",
+        "packagesPath": "/Users/bharath/.nuget/packages/",
+        "outputPath": "/Users/bharath/Desktop/PDFAssets/PDFAsset/PDFAsset.iOS/obj/",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
         "configFilePaths": [
-          "/Users/rahulbhamare/.nuget/NuGet/NuGet.Config"
+          "/Users/bharath/.config/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "xamarinios10"
@@ -26,8 +26,8 @@
         "frameworks": {
           "xamarinios10": {
             "projectReferences": {
-              "/Users/rahulbhamare/Documents/Rahul Bhamare/PDFAsset/PDFAsset/PDFAsset/PDFAsset.csproj": {
-                "projectPath": "/Users/rahulbhamare/Documents/Rahul Bhamare/PDFAsset/PDFAsset/PDFAsset/PDFAsset.csproj"
+              "/Users/bharath/Desktop/PDFAssets/PDFAsset/PDFAsset/PDFAsset.csproj": {
+                "projectPath": "/Users/bharath/Desktop/PDFAssets/PDFAsset/PDFAsset/PDFAsset.csproj"
               }
             }
           }
@@ -55,17 +55,17 @@
         }
       }
     },
-    "/Users/rahulbhamare/Documents/Rahul Bhamare/PDFAsset/PDFAsset/PDFAsset/PDFAsset.csproj": {
+    "/Users/bharath/Desktop/PDFAssets/PDFAsset/PDFAsset/PDFAsset.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/rahulbhamare/Documents/Rahul Bhamare/PDFAsset/PDFAsset/PDFAsset/PDFAsset.csproj",
+        "projectUniqueName": "/Users/bharath/Desktop/PDFAssets/PDFAsset/PDFAsset/PDFAsset.csproj",
         "projectName": "PDFAsset",
-        "projectPath": "/Users/rahulbhamare/Documents/Rahul Bhamare/PDFAsset/PDFAsset/PDFAsset/PDFAsset.csproj",
-        "packagesPath": "/Users/rahulbhamare/.nuget/packages/",
-        "outputPath": "/Users/rahulbhamare/Documents/Rahul Bhamare/PDFAsset/PDFAsset/PDFAsset/obj/",
+        "projectPath": "/Users/bharath/Desktop/PDFAssets/PDFAsset/PDFAsset/PDFAsset.csproj",
+        "packagesPath": "/Users/bharath/.nuget/packages/",
+        "outputPath": "/Users/bharath/Desktop/PDFAssets/PDFAsset/PDFAsset/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/rahulbhamare/.nuget/NuGet/NuGet.Config"
+          "/Users/bharath/.config/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netstandard2.0"
@@ -110,7 +110,7 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "/Users/rahulbhamare/Library/Caches/VisualStudio/8.0/MSBuild/2641_1/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/Users/bharath/Library/Caches/VisualStudio/17.0/MsBuild/637_3/RuntimeIdentifierGraph.json"
         }
       }
     }

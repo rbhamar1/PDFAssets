@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "ED3S79qwGSXZc+Dgar7dm2jnQ0XuAD+obkpxYi6Ii2VPcO+n4E+Wj56OzdmaQAlVJVh1fxMULGnRo6DENpaQiA==",
+  "success": true,
+  "projectFilePath": "/Users/bharath/Desktop/PDFAssets/PDFLibrary/PDFLibrary.csproj",
+  "expectedPackageFiles": [
+    "/Users/bharath/.nuget/packages/netstandard.library.ref/2.1.0/netstandard.library.ref.2.1.0.nupkg.sha512"
+  ],
+  "logs": []
+}
