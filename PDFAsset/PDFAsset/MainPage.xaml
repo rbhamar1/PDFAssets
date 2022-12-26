@@ -5,10 +5,9 @@
              x:Class="PDFAsset.MainPage">
 
     <StackLayout>
-        <!-- Place new controls here -->
-        <Label Text="PDFViewer" 
-           HorizontalOptions="Center"
-           VerticalOptions="CenterAndExpand" />
+        <WebView x:Name="PdfView" Margin="0"
+                 HorizontalOptions="FillAndExpand"
+                 VerticalOptions="FillAndExpand" />
     </StackLayout>
 
 </ContentPage>

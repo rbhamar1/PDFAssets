@@ -1,8 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using Foundation;
+﻿using Foundation;
+using PDFAsset.iOS.Pdf;
+using PDFLibrary;
 using UIKit;
+using Xamarin.Forms;
 
 namespace PDFAsset.iOS
 {
@@ -23,6 +23,7 @@ namespace PDFAsset.iOS
         {
             global::Xamarin.Forms.Forms.Init();
             LoadApplication(new App());
+           // DependencyService.Register<IPdfBuilderFactory, PdfBuilderFactory>();
 
             return base.FinishedLaunching(app, options);
         }

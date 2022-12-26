@@ -8,14 +8,14 @@
       "version": "1.0.0",
       "restore": {
         "projectUniqueName": "/Users/bharath/Desktop/PDFAssets/PDFAsset/PDFAsset.iOS/PDFAsset.iOS.csproj",
-        "projectName": "PDFAsset.iOS.csproj",
+        "projectName": "PDFAsset.iOS",
         "projectPath": "/Users/bharath/Desktop/PDFAssets/PDFAsset/PDFAsset.iOS/PDFAsset.iOS.csproj",
         "packagesPath": "/Users/bharath/.nuget/packages/",
         "outputPath": "/Users/bharath/Desktop/PDFAssets/PDFAsset/PDFAsset.iOS/obj/",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
         "configFilePaths": [
-          "/Users/bharath/.nuget/NuGet/NuGet.Config"
+          "/Users/bharath/.config/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "xamarinios10"
@@ -28,9 +28,6 @@
             "projectReferences": {
               "/Users/bharath/Desktop/PDFAssets/PDFAsset/PDFAsset/PDFAsset.csproj": {
                 "projectPath": "/Users/bharath/Desktop/PDFAssets/PDFAsset/PDFAsset/PDFAsset.csproj"
-              },
-              "/Users/bharath/Desktop/PDFAssets/PDFLibrary/PDFLibrary.csproj": {
-                "projectPath": "/Users/bharath/Desktop/PDFAssets/PDFLibrary/PDFLibrary.csproj"
               }
             }
           }
@@ -45,7 +42,7 @@
             },
             "Xamarin.Forms": {
               "target": "Package",
-              "version": "[3.3.0.967583, )"
+              "version": "[5.0.0.2545, )"
             }
           }
         }
@@ -72,7 +69,7 @@
         "outputPath": "/Users/bharath/Desktop/PDFAssets/PDFAsset/PDFAsset/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/bharath/.nuget/NuGet/NuGet.Config"
+          "/Users/bharath/.config/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netstandard2.0"
@@ -104,7 +101,7 @@
             },
             "Xamarin.Forms": {
               "target": "Package",
-              "version": "[3.3.0.967583, )"
+              "version": "[5.0.0.2545, )"
             }
           },
           "imports": [
@@ -117,75 +114,7 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "/Users/bharath/Library/Caches/VisualStudio/17.0/MSBuild/637_3/RuntimeIdentifierGraph.json"
-        }
-      }
-    },
-    "/Users/bharath/Desktop/PDFAssets/PDFLibrary/PDFLibrary.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "/Users/bharath/Desktop/PDFAssets/PDFLibrary/PDFLibrary.csproj",
-        "projectName": "PDFLibrary",
-        "projectPath": "/Users/bharath/Desktop/PDFAssets/PDFLibrary/PDFLibrary.csproj",
-        "packagesPath": "/Users/bharath/.nuget/packages/",
-        "outputPath": "/Users/bharath/Desktop/PDFAssets/PDFLibrary/obj/",
-        "projectStyle": "PackageReference",
-        "configFilePaths": [
-          "/Users/bharath/.nuget/NuGet/NuGet.Config"
-        ],
-        "originalTargetFrameworks": [
-          "netstandard2.1"
-        ],
-        "sources": {
-          "https://api.nuget.org/v3/index.json": {}
-        },
-        "frameworks": {
-          "netstandard2.1": {
-            "targetAlias": "netstandard2.1",
-            "projectReferences": {}
-          }
-        },
-        "warningProperties": {
-          "warnAsError": [
-            "NU1605"
-          ]
-        }
-      },
-      "frameworks": {
-        "netstandard2.1": {
-          "targetAlias": "netstandard2.1",
-          "dependencies": {
-            "Dawn.Guard": {
-              "target": "Package",
-              "version": "[1.12.0, )"
-            },
-            "Xamarin.Forms": {
-              "target": "Package",
-              "version": "[3.3.0.967583, )"
-            }
-          },
-          "imports": [
-            "net461",
-            "net462",
-            "net47",
-            "net471",
-            "net472",
-            "net48"
-          ],
-          "assetTargetFallback": true,
-          "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "NETStandard.Library.Ref",
-              "version": "[2.1.0, 2.1.0]"
-            }
-          ],
-          "frameworkReferences": {
-            "NETStandard.Library": {
-              "privateAssets": "all"
-            }
-          },
-          "runtimeIdentifierGraphPath": "/Users/bharath/Library/Caches/VisualStudio/17.0/MSBuild/637_3/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/Users/bharath/Library/Caches/VisualStudio/17.0/MsBuild/4935_3/RuntimeIdentifierGraph.json"
         }
       }
     }

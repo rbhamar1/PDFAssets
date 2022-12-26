@@ -1,7 +1,7 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
     <PropertyGroup>
-        <TargetFramework>netstandard2.1</TargetFramework>
+        <TargetFramework>netstandard2.0</TargetFramework>
         <ImplicitUsings>enable</ImplicitUsings>
         <Nullable>enable</Nullable>
         <LangVersion>default</LangVersion>
@@ -9,7 +9,7 @@
 
     <ItemGroup>
       <PackageReference Include="Dawn.Guard" Version="1.12.0" />
-      <PackageReference Include="Xamarin.Forms" Version="3.3.0.967583" />
+      <PackageReference Include="Xamarin.Forms" Version="5.0.0.2545" />
     </ItemGroup>
 
 </Project>

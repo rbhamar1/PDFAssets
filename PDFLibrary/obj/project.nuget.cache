@@ -1,12 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "QplqYlERbXE2qm4OehBs/t3efqz3BW6da+s9jmP/KC5fz6M/H2+VIHoYrVATUvrTNacFmdE4eK/zKjZL2byjpA==",
+  "dgSpecHash": "ncRZv7P7FTY+lI9k2bYtiRRXhSlf+VhmIGtzse2mDVG3Qcbx6HHpUh8/2vOVa60hnWub6zBYcgkycdEukdXbEg==",
   "success": true,
   "projectFilePath": "/Users/bharath/Desktop/PDFAssets/PDFLibrary/PDFLibrary.csproj",
   "expectedPackageFiles": [
     "/Users/bharath/.nuget/packages/dawn.guard/1.12.0/dawn.guard.1.12.0.nupkg.sha512",
-    "/Users/bharath/.nuget/packages/xamarin.forms/3.3.0.967583/xamarin.forms.3.3.0.967583.nupkg.sha512",
-    "/Users/bharath/.nuget/packages/netstandard.library.ref/2.1.0/netstandard.library.ref.2.1.0.nupkg.sha512"
+    "/Users/bharath/.nuget/packages/microsoft.netcore.platforms/1.1.0/microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "/Users/bharath/.nuget/packages/netstandard.library/2.0.3/netstandard.library.2.0.3.nupkg.sha512",
+    "/Users/bharath/.nuget/packages/xamarin.forms/5.0.0.2545/xamarin.forms.5.0.0.2545.nupkg.sha512"
   ],
   "logs": []
 }

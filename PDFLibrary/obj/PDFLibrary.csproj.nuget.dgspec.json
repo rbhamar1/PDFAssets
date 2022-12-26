@@ -17,14 +17,14 @@
           "/Users/bharath/.config/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
-          "netstandard2.1"
+          "netstandard2.0"
         ],
         "sources": {
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "netstandard2.1": {
-            "targetAlias": "netstandard2.1",
+          "netstandard2.0": {
+            "targetAlias": "netstandard2.0",
             "projectReferences": {}
           }
         },
@@ -35,16 +35,22 @@
         }
       },
       "frameworks": {
-        "netstandard2.1": {
-          "targetAlias": "netstandard2.1",
+        "netstandard2.0": {
+          "targetAlias": "netstandard2.0",
           "dependencies": {
             "Dawn.Guard": {
               "target": "Package",
               "version": "[1.12.0, )"
             },
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            },
             "Xamarin.Forms": {
               "target": "Package",
-              "version": "[3.3.0.967583, )"
+              "version": "[5.0.0.2545, )"
             }
           },
           "imports": [
@@ -57,18 +63,7 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "NETStandard.Library.Ref",
-              "version": "[2.1.0, 2.1.0]"
-            }
-          ],
-          "frameworkReferences": {
-            "NETStandard.Library": {
-              "privateAssets": "all"
-            }
-          },
-          "runtimeIdentifierGraphPath": "/Users/bharath/Library/Caches/VisualStudio/17.0/MsBuild/637_3/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/Users/bharath/Library/Caches/VisualStudio/17.0/MsBuild/4935_3/RuntimeIdentifierGraph.json"
         }
       }
     }

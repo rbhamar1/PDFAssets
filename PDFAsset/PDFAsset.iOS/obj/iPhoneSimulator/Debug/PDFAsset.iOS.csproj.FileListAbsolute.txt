@@ -45,7 +45,6 @@
 /Users/bharath/Desktop/PDFAssets/PDFAsset/PDFAsset.iOS/bin/iPhoneSimulator/Debug/PDFAsset.pdb
 /Users/bharath/Desktop/PDFAssets/PDFAsset/PDFAsset.iOS/obj/iPhoneSimulator/Debug/PDFAsset.iOS.csproj.AssemblyReference.cache
 /Users/bharath/Desktop/PDFAssets/PDFAsset/PDFAsset.iOS/obj/iPhoneSimulator/Debug/PDFAsset.iOS.csproj.CoreCompileInputs.cache
-/Users/bharath/Desktop/PDFAssets/PDFAsset/PDFAsset.iOS/obj/iPhoneSimulator/Debug/XamlC.stamp
 /Users/bharath/Desktop/PDFAssets/PDFAsset/PDFAsset.iOS/obj/iPhoneSimulator/Debug/PDFAsset.iOS.csproj.CopyComplete
 /Users/bharath/Desktop/PDFAssets/PDFAsset/PDFAsset.iOS/obj/iPhoneSimulator/Debug/PDFAsset.iOS.exe
 /Users/bharath/Desktop/PDFAssets/PDFAsset/PDFAsset.iOS/obj/iPhoneSimulator/Debug/PDFAsset.iOS.pdb
@@ -60,3 +59,6 @@
 /Users/bharath/Desktop/PDFAssets/PDFAsset/PDFAsset.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone14.7-16.1/_ProcessedBundleResourcesPath.items
 /Users/bharath/Desktop/PDFAssets/PDFAsset/PDFAsset.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone14.7-16.1/_ProcessedContentPath.items
 /Users/bharath/Desktop/PDFAssets/PDFAsset/PDFAsset.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone14.7-16.1/optimized/
+/Users/bharath/Desktop/PDFAssets/PDFAsset/PDFAsset.iOS/bin/iPhoneSimulator/Debug/Dawn.Guard.dll
+/Users/bharath/Desktop/PDFAssets/PDFAsset/PDFAsset.iOS/bin/iPhoneSimulator/Debug/PDFLibrary.dll
+/Users/bharath/Desktop/PDFAssets/PDFAsset/PDFAsset.iOS/bin/iPhoneSimulator/Debug/PDFLibrary.pdb

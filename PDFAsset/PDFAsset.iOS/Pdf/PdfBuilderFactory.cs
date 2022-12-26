@@ -1,19 +1,18 @@
-using Dawn;
 using Pdfgenerator.iOS.Pdf;
 using PdfGenerator.Pdf;
 using PDFLibrary;
+using Xamarin.Forms;
 
+[assembly: Dependency(typeof(PDFAsset.iOS.Pdf.PdfBuilderFactory))]
 namespace PDFAsset.iOS.Pdf
 {
     public sealed class PdfBuilderFactory : IPdfBuilderFactory
     {
-        public PdfBuilderFactory(FontCache fontCache, TextAttributesCache textAttributesCache)
+        public PdfBuilderFactory()
         {
-            _fontCache = Guard.Argument(fontCache, nameof(fontCache))
-                              .NotNull();
+            _fontCache = new FontCache();
 
-            _textAttributesCache = Guard.Argument(textAttributesCache, nameof(textAttributesCache))
-                                        .NotNull();
+            _textAttributesCache = new TextAttributesCache();
         }
 
         public IPdfBuilder Create(bool enableDebugLogging = false) => new PdfBuilder(_fontCache, _textAttributesCache, DOCUMENT_TRAILER_MM, enableDebugLogging);

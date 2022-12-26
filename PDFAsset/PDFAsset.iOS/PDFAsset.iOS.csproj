@@ -108,6 +108,9 @@
         <Reference Include="Dawn.Guard">
           <HintPath>..\..\..\..\.nuget\packages\dawn.guard\1.12.0\lib\netstandard2.0\Dawn.Guard.dll</HintPath>
         </Reference>
+        <Reference Include="PDFLibrary">
+          <HintPath>..\..\PDFLibrary\bin\Release\netstandard2.0\PDFLibrary.dll</HintPath>
+        </Reference>
         <Reference Include="System" />
         <Reference Include="System.Xml" />
         <Reference Include="System.Core" />
@@ -115,17 +118,18 @@
     </ItemGroup>
     <ItemGroup>
         <PackageReference Include="Dawn.Guard" Version="1.12.0" />
-        <PackageReference Include="Xamarin.Forms" Version="3.3.0.967583" />
+        <PackageReference Include="Xamarin.Forms" Version="5.0.0.2545" />
     </ItemGroup>
     <ItemGroup>
-        <ProjectReference Include="..\..\PDFLibrary\PDFLibrary.csproj">
-          <Project>{e3bb40df-ed15-4108-93e5-62eb6b3a02fd}</Project>
-          <Name>PDFLibrary</Name>
-        </ProjectReference>
         <ProjectReference Include="..\PDFAsset\PDFAsset.csproj">
             <Project>{25FA0017-232C-4CB4-8B3C-DB573ABA06F9}</Project>
             <Name>PDFAsset</Name>
         </ProjectReference>
+    </ItemGroup>
+    <ItemGroup>
+      <BundleResource Include="Resources\CSLGOBC0.TTF" />
+      <BundleResource Include="Resources\CSLGOVC0.TTF" />
+      <BundleResource Include="Resources\OCR-A-Std-Regular.ttf" />
     </ItemGroup>
     <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
 </Project>
