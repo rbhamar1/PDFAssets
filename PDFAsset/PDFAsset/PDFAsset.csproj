@@ -14,8 +14,16 @@
     </ItemGroup>
 
     <ItemGroup>
+      <None Remove="Asset\PDFLibrary.dll" />
+    </ItemGroup>
+
+    <ItemGroup>
       <Reference Include="PDFLibrary">
-        <HintPath>..\..\PDFLibrary\bin\Release\netstandard2.0\PDFLibrary.dll</HintPath>
+        <HintPath>Asset\PDFLibrary.dll</HintPath>
       </Reference>
+    </ItemGroup>
+
+    <ItemGroup>
+      <Content Include="Asset\PDFLibrary.dll" />
     </ItemGroup>
 </Project>

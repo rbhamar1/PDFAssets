@@ -11,5 +11,4 @@
 /Users/bharath/Desktop/PDFAssets/PDFAsset/PDFAsset/obj/Debug/netstandard2.0/PDFAsset.dll
 /Users/bharath/Desktop/PDFAssets/PDFAsset/PDFAsset/obj/Debug/netstandard2.0/PDFAsset.pdb
 /Users/bharath/Desktop/PDFAssets/PDFAsset/PDFAsset/bin/Debug/netstandard2.0/PDFLibrary.dll
-/Users/bharath/Desktop/PDFAssets/PDFAsset/PDFAsset/bin/Debug/netstandard2.0/PDFLibrary.pdb
 /Users/bharath/Desktop/PDFAssets/PDFAsset/PDFAsset/obj/Debug/netstandard2.0/PDFAsset.csproj.CopyComplete
