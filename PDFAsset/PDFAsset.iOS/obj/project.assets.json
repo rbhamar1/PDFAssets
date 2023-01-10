@@ -921,11 +921,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/bharath/Desktop/PDFAssets/PDFAsset/PDFAsset.iOS/PDFAsset.iOS.csproj",
+      "projectUniqueName": "/Users/bharath/Documents/New/Untitled/PDFAsset/PDFAsset.iOS/PDFAsset.iOS.csproj",
       "projectName": "PDFAsset.iOS",
-      "projectPath": "/Users/bharath/Desktop/PDFAssets/PDFAsset/PDFAsset.iOS/PDFAsset.iOS.csproj",
+      "projectPath": "/Users/bharath/Documents/New/Untitled/PDFAsset/PDFAsset.iOS/PDFAsset.iOS.csproj",
       "packagesPath": "/Users/bharath/.nuget/packages/",
-      "outputPath": "/Users/bharath/Desktop/PDFAssets/PDFAsset/PDFAsset.iOS/obj/",
+      "outputPath": "/Users/bharath/Documents/New/Untitled/PDFAsset/PDFAsset.iOS/obj/",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "configFilePaths": [
@@ -940,8 +940,8 @@
       "frameworks": {
         "xamarinios10": {
           "projectReferences": {
-            "/Users/bharath/Desktop/PDFAssets/PDFAsset/PDFAsset/PDFAsset.csproj": {
-              "projectPath": "/Users/bharath/Desktop/PDFAssets/PDFAsset/PDFAsset/PDFAsset.csproj"
+            "/Users/bharath/Documents/New/Untitled/PDFAsset/PDFAsset/PDFAsset.csproj": {
+              "projectPath": "/Users/bharath/Documents/New/Untitled/PDFAsset/PDFAsset/PDFAsset.csproj"
             }
           }
         }

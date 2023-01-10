@@ -456,11 +456,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/bharath/Desktop/PDFAssets/PDFLibrary/PDFLibrary.csproj",
+      "projectUniqueName": "/Users/bharath/Documents/New/Untitled/PDFLibrary/PDFLibrary.csproj",
       "projectName": "PDFLibrary",
-      "projectPath": "/Users/bharath/Desktop/PDFAssets/PDFLibrary/PDFLibrary.csproj",
+      "projectPath": "/Users/bharath/Documents/New/Untitled/PDFLibrary/PDFLibrary.csproj",
       "packagesPath": "/Users/bharath/.nuget/packages/",
-      "outputPath": "/Users/bharath/Desktop/PDFAssets/PDFLibrary/obj/",
+      "outputPath": "/Users/bharath/Documents/New/Untitled/PDFLibrary/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/bharath/.config/NuGet/NuGet.Config"
@@ -512,7 +512,7 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
-        "runtimeIdentifierGraphPath": "/Users/bharath/Library/Caches/VisualStudio/17.0/MSBuild/1277_3/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/Users/bharath/Library/Caches/VisualStudio/17.0/MsBuild/1277_3/RuntimeIdentifierGraph.json"
       }
     }
   }

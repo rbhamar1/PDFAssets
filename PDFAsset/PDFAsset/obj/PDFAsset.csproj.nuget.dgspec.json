@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/bharath/Desktop/PDFAssets/PDFAsset/PDFAsset/PDFAsset.csproj": {}
+    "/Users/bharath/Documents/New/Untitled/PDFAsset/PDFAsset/PDFAsset.csproj": {}
   },
   "projects": {
-    "/Users/bharath/Desktop/PDFAssets/PDFAsset/PDFAsset/PDFAsset.csproj": {
+    "/Users/bharath/Documents/New/Untitled/PDFAsset/PDFAsset/PDFAsset.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/bharath/Desktop/PDFAssets/PDFAsset/PDFAsset/PDFAsset.csproj",
+        "projectUniqueName": "/Users/bharath/Documents/New/Untitled/PDFAsset/PDFAsset/PDFAsset.csproj",
         "projectName": "PDFAsset",
-        "projectPath": "/Users/bharath/Desktop/PDFAssets/PDFAsset/PDFAsset/PDFAsset.csproj",
+        "projectPath": "/Users/bharath/Documents/New/Untitled/PDFAsset/PDFAsset/PDFAsset.csproj",
         "packagesPath": "/Users/bharath/.nuget/packages/",
-        "outputPath": "/Users/bharath/Desktop/PDFAssets/PDFAsset/PDFAsset/obj/",
+        "outputPath": "/Users/bharath/Documents/New/Untitled/PDFAsset/PDFAsset/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/bharath/.config/NuGet/NuGet.Config"

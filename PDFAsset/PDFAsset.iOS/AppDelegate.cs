@@ -23,7 +23,6 @@ namespace PDFAsset.iOS
         {
             global::Xamarin.Forms.Forms.Init();
             LoadApplication(new App());
-           // DependencyService.Register<IPdfBuilderFactory, PdfBuilderFactory>();
 
             return base.FinishedLaunching(app, options);
         }

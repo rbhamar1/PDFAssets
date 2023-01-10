@@ -427,11 +427,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/bharath/Desktop/PDFAssets/PDFAsset/PDFAsset/PDFAsset.csproj",
+      "projectUniqueName": "/Users/bharath/Documents/New/Untitled/PDFAsset/PDFAsset/PDFAsset.csproj",
       "projectName": "PDFAsset",
-      "projectPath": "/Users/bharath/Desktop/PDFAssets/PDFAsset/PDFAsset/PDFAsset.csproj",
+      "projectPath": "/Users/bharath/Documents/New/Untitled/PDFAsset/PDFAsset/PDFAsset.csproj",
       "packagesPath": "/Users/bharath/.nuget/packages/",
-      "outputPath": "/Users/bharath/Desktop/PDFAssets/PDFAsset/PDFAsset/obj/",
+      "outputPath": "/Users/bharath/Documents/New/Untitled/PDFAsset/PDFAsset/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/bharath/.config/NuGet/NuGet.Config"
@@ -479,7 +479,7 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
-        "runtimeIdentifierGraphPath": "/Users/bharath/Library/Caches/VisualStudio/17.0/MSBuild/1277_3/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/Users/bharath/Library/Caches/VisualStudio/17.0/MsBuild/1277_3/RuntimeIdentifierGraph.json"
       }
     }
   }

@@ -85,10 +85,7 @@ namespace PDFAsset.iOS.Pdf
                                               0,
                                               PdfUnitConversion.ConvertMmsToPoints(pageTemplate.MaximumSizeMm.Width),
                                               PdfUnitConversion.ConvertMmsToPoints(pageHeightMm));
-
-                    //__logger.Information("{Member}: pageHeight={PageHeight} mm, creating page with bounds={Bounds}",
-                      //                   nameof(Generate), pageHeightMm.ToString("F3"), DescribeCgRectPoints(pageRect));
-
+                    
                     context.BeginPage(pageRect, extraPageInfo);
                 }
 
@@ -117,12 +114,7 @@ namespace PDFAsset.iOS.Pdf
                                         offset.Y + PdfUnitConversion.ConvertMmsToPoints(textBlock.Bounds.Y),
                                         PdfUnitConversion.ConvertMmsToPoints(textBlock.Bounds.Width),
                                         PdfUnitConversion.ConvertMmsToPoints(textBlock.Bounds.Height));
-
-                   // if (enableDebugLogging)
-                    //{
-                      //  __logger.Debug("{Member}: bounds={Bounds}, alignment={Alignment}, text=\"{Text}\"",
-                      //                 nameof(RenderBlock), DescribeCgRectPoints(bounds), textBlock.Alignment, textBlock.Text);
-                    //}
+                    
 
                     nativeString.DrawString(bounds);
 
@@ -132,12 +124,6 @@ namespace PDFAsset.iOS.Pdf
                                         offset.Y + PdfUnitConversion.ConvertMmsToPoints(imageBlock.Bounds.Y),
                                         PdfUnitConversion.ConvertMmsToPoints(imageBlock.Bounds.Width),
                                         PdfUnitConversion.ConvertMmsToPoints(imageBlock.Bounds.Height));
-
-                   // if (enableDebugLogging)
-                    //{
-                      //  __logger.Debug("{Member}: bounds={Bounds},  Image",
-                     //      nameof(RenderBlock), DescribeCgRectPoints(bounds));
-                    //}
 
                     if (imageBlock.ImagePdf is StreamImageSource)
                     {
@@ -159,12 +145,7 @@ namespace PDFAsset.iOS.Pdf
                                         offset.Y + PdfUnitConversion.ConvertMmsToPoints(barcodeBlock.Bounds.Y),
                                         PdfUnitConversion.ConvertMmsToPoints(barcodeBlock.Bounds.Width),
                                         PdfUnitConversion.ConvertMmsToPoints(barcodeBlock.Bounds.Height));
-
-                  //  if (enableDebugLogging)
-                   // {
-                    //    __logger.Debug("{Member}: bounds={Bounds}, barcode",
-                    //                   nameof(RenderBlock), DescribeCgRectPoints(bounds));
-                   // }
+                    
 
                     var barcodeImage = BuildBarcodeImage(barcodeBlock);
 
@@ -179,27 +160,13 @@ namespace PDFAsset.iOS.Pdf
                                         PdfUnitConversion.ConvertMmsToPoints(boxBlock.Bounds.Y),
                                         PdfUnitConversion.ConvertMmsToPoints(boxBlock.Bounds.Width),
                                         PdfUnitConversion.ConvertMmsToPoints(boxBlock.Bounds.Height));
-
-                  //  if (enableDebugLogging)
-                   /// {
-                     //   __logger.Debug("{Member}: bounds={Bounds}, BoxBlock",
-                      //                 nameof(RenderBlock), DescribeCgRectPoints(bounds));
-                   // }
-
+                    
                     CoreGraphicsHelper.DrawHorizontalLineStartingAtPoint(cgContext, new CGColor(0, 0, 0), bounds.X, bounds.X + bounds.Width, bounds.Height + marginttop, (nfloat) boxBlock.Thickness);
                     CoreGraphicsHelper.DrawVertictalLineStartingAtPoint(cgContext, new CGColor(0, 0, 0), bounds.X, bounds.Y, bounds.Height + marginttop, (nfloat) boxBlock.Thickness);
                     CoreGraphicsHelper.DrawVertictalLineStartingAtPoint(cgContext, new CGColor(0, 0, 0), bounds.X + bounds.Width, bounds.Y, bounds.Height + marginttop, (nfloat) boxBlock.Thickness);
                     CoreGraphicsHelper.DrawHorizontalLineStartingAtPoint(cgContext, new CGColor(0, 0, 0), bounds.X, bounds.X + bounds.Width, bounds.Y, (nfloat) boxBlock.Thickness);
 
                     break;
-
-              //  default:
-                    
-                    //  __logger.Error("{Member}: Can't render unknown block type {Type}",
-                                 //  nameof(RenderBlock), block.GetType()
-                                                          //   .Name);
-
-               //     break;
             }
         }
 
@@ -261,8 +228,6 @@ namespace PDFAsset.iOS.Pdf
 
             return new Size(nativeSize.Width, nativeSize.Height);
         }
-
-        // private static readonly ILogger __logger = LoggingExtensions.ForContextEx<PdfBuilder>();
 
         private readonly FontCache _fontCache;
         private readonly TextAttributesCache _textAttributesCache;

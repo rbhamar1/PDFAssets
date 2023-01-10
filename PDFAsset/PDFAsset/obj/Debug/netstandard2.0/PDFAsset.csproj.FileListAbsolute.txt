@@ -12,3 +12,17 @@
 /Users/bharath/Desktop/PDFAssets/PDFAsset/PDFAsset/obj/Debug/netstandard2.0/PDFAsset.pdb
 /Users/bharath/Desktop/PDFAssets/PDFAsset/PDFAsset/bin/Debug/netstandard2.0/PDFLibrary.dll
 /Users/bharath/Desktop/PDFAssets/PDFAsset/PDFAsset/obj/Debug/netstandard2.0/PDFAsset.csproj.CopyComplete
+/Users/bharath/Documents/New/Untitled/PDFAsset/PDFAsset/bin/Debug/netstandard2.0/PDFAsset.deps.json
+/Users/bharath/Documents/New/Untitled/PDFAsset/PDFAsset/bin/Debug/netstandard2.0/PDFAsset.dll
+/Users/bharath/Documents/New/Untitled/PDFAsset/PDFAsset/bin/Debug/netstandard2.0/PDFAsset.pdb
+/Users/bharath/Documents/New/Untitled/PDFAsset/PDFAsset/bin/Debug/netstandard2.0/PDFLibrary.dll
+/Users/bharath/Documents/New/Untitled/PDFAsset/PDFAsset/obj/Debug/netstandard2.0/PDFAsset.csproj.AssemblyReference.cache
+/Users/bharath/Documents/New/Untitled/PDFAsset/PDFAsset/obj/Debug/netstandard2.0/App.xaml.g.cs
+/Users/bharath/Documents/New/Untitled/PDFAsset/PDFAsset/obj/Debug/netstandard2.0/MainPage.xaml.g.cs
+/Users/bharath/Documents/New/Untitled/PDFAsset/PDFAsset/obj/Debug/netstandard2.0/PDFAsset.AssemblyInfoInputs.cache
+/Users/bharath/Documents/New/Untitled/PDFAsset/PDFAsset/obj/Debug/netstandard2.0/PDFAsset.AssemblyInfo.cs
+/Users/bharath/Documents/New/Untitled/PDFAsset/PDFAsset/obj/Debug/netstandard2.0/PDFAsset.csproj.CoreCompileInputs.cache
+/Users/bharath/Documents/New/Untitled/PDFAsset/PDFAsset/obj/Debug/netstandard2.0/XamlC.stamp
+/Users/bharath/Documents/New/Untitled/PDFAsset/PDFAsset/obj/Debug/netstandard2.0/PDFAsset.csproj.CopyComplete
+/Users/bharath/Documents/New/Untitled/PDFAsset/PDFAsset/obj/Debug/netstandard2.0/PDFAsset.dll
+/Users/bharath/Documents/New/Untitled/PDFAsset/PDFAsset/obj/Debug/netstandard2.0/PDFAsset.pdb

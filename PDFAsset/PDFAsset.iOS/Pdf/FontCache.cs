@@ -38,13 +38,7 @@ namespace PDFAsset.iOS.Pdf
 
             var horizontalScaling = PdfUnitConversion.ConvertMmsToPoints(charWidthMm) / characterSize.Width;
 
-           // __logger.Debug("{Member}: fontSizeScaling={FontSizeScaling}, character size=({CharWidth}, {CharHeight}), horizontal scaling={HorizontalScaling}",
-                         //  nameof(CreateNativeFont), fontSizeScaling, characterSize.Width, characterSize.Height, horizontalScaling);
-
             var scaledFont = CreateNativeFont(sizedFont, fontSize, horizontalScaling, 1);
-
-            //__logger.Information("{Member}: requested font (\"{FontName}\", w={Width} mm, lh={LineHeightMm} mm) resulted in a font with size={FontSize} points, LineHeight={LineHeightPoint} points",
-                                // nameof(CreateNativeFont), fontName, charWidthMm, lineHeightMm, fontSize.ToString("F2"), scaledFont.LineHeight.ToString("F2"));
 
             return scaledFont;
         }
@@ -63,8 +57,6 @@ namespace PDFAsset.iOS.Pdf
         private const string MEASURE_TEXT = "0";
 
         private static readonly nfloat __arbitraryFontSize = (nfloat) 10.0;
-
-      //  private static readonly ILogger __logger = LoggingExtensions.ForContextEx<FontCache>();
 
         private readonly Dictionary<PdfFont, UIFont> _fonts = new Dictionary<PdfFont, UIFont>();
     }

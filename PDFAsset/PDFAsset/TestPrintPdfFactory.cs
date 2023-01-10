@@ -32,8 +32,6 @@ namespace PDFAsset
         {
             //PdfFontFactory class has the methods to select the font and Create the font size
             var font = PdfFontFactory.CreateSmallRegularFont();
-
-            var versionText = "PdfAsset 1.0";
             var decimalLine = new string('=', PAGE_WIDTH_CHARACTERS);
             var now = DateTime.Now;
             var dateText = now.Date.ToString("MM-dd-yy");
