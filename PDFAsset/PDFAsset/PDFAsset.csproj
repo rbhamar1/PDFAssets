@@ -18,12 +18,14 @@
     </ItemGroup>
 
     <ItemGroup>
-      <Reference Include="PDFLibrary">
-        <HintPath>Asset\PDFLibrary.dll</HintPath>
-      </Reference>
+      <None Remove="PepsiCoMega14.jpg" />
+      <None Remove="Ibm_logo.png" />
+      <EmbeddedResource Include="Ibm_logo.png" />
     </ItemGroup>
 
     <ItemGroup>
-      <Content Include="Asset\PDFLibrary.dll" />
+      <Reference Include="PDFLibrary">
+        <HintPath>..\..\Dll\PDFLibrary.dll</HintPath>
+      </Reference>
     </ItemGroup>
 </Project>

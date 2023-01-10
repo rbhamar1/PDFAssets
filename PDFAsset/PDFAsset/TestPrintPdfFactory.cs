@@ -1,5 +1,8 @@
 using System;
 using System.Collections.Generic;
+using System.Linq;
+using System.Reflection;
+using System.Threading;
 using PdfGenerator.Pdf;
 using PDFLibrary;
 using Xamarin.Forms;
@@ -33,29 +36,33 @@ namespace PDFAsset
             var decimalLine = new string('=', PAGE_WIDTH_CHARACTERS);
             var now = DateTime.Now;
             var dateText = now.Date.ToString("MM-dd-yy");
-            var timeText = now.ToString("MM-dd-yyyy");
+            var timeText = now.ToString("HH:mm:ss");
 
             var paginator = new PdfPaginator(pageTemplate, stringMeasurer)
                 .WithFont(font);
+
+            paginator.AddBlankRow();
             
-            var mainHeaderRegion = AddHeaderSection(asnDocument, smallBoldFont, smallRegularFont);
+            var mainHeaderRegion = AddHeaderSection(PdfFontFactory.CreateRegularFont(2,4));
             paginator.MakeSureCurrentPage();
 
-            paginator.AddStaticImage(EmbeddedSourceror.SourceFor(SalesHubConstants.PEPSICO_LOGO), 5, 5, 60, 20)
+            paginator.AddStaticImage(EmbeddedSourceror.SourceFor("Ibm_logo.png"), 5, 5, 40, 20)
                 .AddRegions(mainHeaderRegion);
+            
+            paginator.AddBlankRow();
 
             // Note: this document is mostly decimal-spaced, which is very uncommon
-            paginator.AddRow(versionText, TextAlignment.End)
-                           .AddBlankRow()
-                           .AddRow(decimalLine)
-                           .AddBlankRow()
-                           .AddRow(new PdfTextRow()
-                                  .AddPromptText("DATE", new PdfTextPlacement(FIRST_COLUMN_MM, 0, 7 * font.CharWidthMm))
-                                  .AddText(dateText, TextAlignment.Start, new PdfTextPlacement(SECOND_COLUMN_MM)))
-                           .AddRow(new PdfTextRow()
-                                  .AddPromptText("TIME", new PdfTextPlacement(FIRST_COLUMN_MM, 0, 7 * font.CharWidthMm))
-                                  .AddText(timeText, TextAlignment.Start, new PdfTextPlacement(SECOND_COLUMN_MM)))
-                           .AddBlankRow();
+            paginator.AddBlankRow()
+                .AddRow(decimalLine)
+                .AddBlankRow()
+                .AddRow(new PdfTextRow()
+                    .AddPromptText("DATE", new PdfTextPlacement(FIRST_COLUMN_MM, 0, 7 * font.CharWidthMm))
+                    .AddText(dateText, TextAlignment.Start, new PdfTextPlacement(SECOND_COLUMN_MM)))
+                .AddRow(new PdfTextRow()
+                    .AddPromptText("TIME", new PdfTextPlacement(FIRST_COLUMN_MM, 0, 7 * font.CharWidthMm))
+                    .AddText(timeText, TextAlignment.Start, new PdfTextPlacement(SECOND_COLUMN_MM)))
+                .AddBlankRow()
+                .AddBlankRow();
             AddProductsHeaderSection(paginator, PdfFontFactory.CreateSmallBoldFont());
             AddProducts(paginator,font);
             
@@ -65,16 +72,16 @@ namespace PDFAsset
                            .AddRow("This is a sample report", TextAlignment.Center)
                            .AddBlankRow()
                            .AddBlankRow()
-                           .AddRow("-----End of the Report--------", TextAlignment.Center);
+                           .AddRow("-------End of the Report--------", TextAlignment.Center);
 
             return paginator.GetPages();
         }
         
          private PdfTextRegion AddHeaderSection( PdfFont smallBoldFont)
         {
-            var mainHeaderRegion = new PdfTextRegion(new Point(PAGE_WIDTH_CHARACTERS, 0))
+            var mainHeaderRegion = new PdfTextRegion(new Point(PAGE_WIDTH_CHARACTERS - 30, 10))
                                   .AddRow(new PdfTextRow()
-                                             .AddText($"Sample Text", smallBoldFont, 40, 30))
+                                             .AddText($"Heading 1", smallBoldFont, 10, 40))
                                   .AddBlankRow();
 
             return mainHeaderRegion;
@@ -110,5 +117,16 @@ namespace PDFAsset
         private const double FIRST_COLUMN_MM = 78.75;
         private const double SECOND_COLUMN_MM = 86.25;
         private readonly IPdfBuilder _pdfBuilder;
+    }
+    
+    public sealed class EmbeddedSourceror
+    {
+        public static ImageSource SourceFor(string filenameWithExtension)
+        {
+            var resources = typeof(EmbeddedSourceror).GetTypeInfo()
+                .Assembly.GetManifestResourceNames();
+
+            return ImageSource.FromResource(resources.First(r => r.EndsWith(filenameWithExtension, StringComparison.OrdinalIgnoreCase)));
+        }
     }
 }
