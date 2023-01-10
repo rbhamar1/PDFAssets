@@ -113,7 +113,7 @@
           <HintPath>..\..\..\..\.nuget\packages\dawn.guard\1.12.0\lib\netstandard2.0\Dawn.Guard.dll</HintPath>
         </Reference>
         <Reference Include="PDFLibrary">
-          <HintPath>..\..\PDFLibrary\bin\Release\netstandard2.0\PDFLibrary.dll</HintPath>
+          <HintPath>..\..\Dll\PDFLibrary.dll</HintPath>
         </Reference>
         <Reference Include="System" />
         <Reference Include="System.Xml" />

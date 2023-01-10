@@ -1,8 +1,9 @@
 using PdfGenerator.Pdf;
 
-namespace PDFLibrary;
-
-public interface IPdfBuilderFactory
+namespace PDFLibrary
 {
-    IPdfBuilder Create(bool enableDebugLogging = false);
+    public interface IPdfBuilderFactory
+    {
+        IPdfBuilder Create(bool enableDebugLogging = false);
+    }
 }
