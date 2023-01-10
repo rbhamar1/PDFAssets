@@ -30,6 +30,7 @@ namespace PDFAsset
 
         private IEnumerable<PdfPage> BuildTestPrint(PdfPageTemplate pageTemplate, IPdfStringMeasurer stringMeasurer)
         {
+            //PdfFontFactory class has the methods to select the font and Create the font size
             var font = PdfFontFactory.CreateSmallRegularFont();
 
             var versionText = "PdfAsset 1.0";
@@ -37,7 +38,10 @@ namespace PDFAsset
             var now = DateTime.Now;
             var dateText = now.Date.ToString("MM-dd-yy");
             var timeText = now.ToString("HH:mm:ss");
-
+            
+            // Paginator is the main class which layouts different views on the page 
+            // according to thier height and width
+            // PdfPageTemplate contains info like hieght, width and margins of the page
             var paginator = new PdfPaginator(pageTemplate, stringMeasurer)
                 .WithFont(font);
 
