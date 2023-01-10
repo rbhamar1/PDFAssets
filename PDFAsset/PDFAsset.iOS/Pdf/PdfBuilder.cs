@@ -14,6 +14,7 @@ using Xamarin.Forms.Platform.iOS;
 
 namespace PDFAsset.iOS.Pdf
 {
+    //This class generates the final pdf
     public sealed class PdfBuilder : IPdfBuilder
     {
         public PdfBuilder(FontCache fontCache, TextAttributesCache textAttributesCache, double documentTrailerMm, bool enableDebugLogging = false)
@@ -45,6 +46,7 @@ namespace PDFAsset.iOS.Pdf
 
             using (var renderer = new UIGraphicsPdfRenderer())
             {
+                // it creates pdf data
                 pdfData = renderer.CreatePdf(context => { GeneratePages(context, pageTemplate, pageArray, rotatePage, rotateMargin); });
             }
 
@@ -101,12 +103,21 @@ namespace PDFAsset.iOS.Pdf
             }
         }
 
+        /// <summary>
+        /// It takes the blocks built by paginator and draws the views on ths page
+        /// using cgContext
+        /// </summary>
+        /// <param name="block"></param>
+        /// <param name="cgContext"></param>
+        /// <param name="offset"></param>
+        /// <param name="enableDebugLogging"></param>
         private void RenderBlock(IPdfBlock block, CGContext cgContext, Point offset, bool enableDebugLogging)
         {
             CGRect bounds;
 
             switch (block)
             {
+                
                 case PdfStaticTextBlock textBlock:
                     var nativeString = BuildNativeString(textBlock.Text, textBlock.Font, textBlock.Alignment);
 
@@ -152,6 +163,8 @@ namespace PDFAsset.iOS.Pdf
                     cgContext.DrawImage(FlipImageBounds(bounds), barcodeImage);
 
                     break;
+                
+                // This block is used to draw empty boxes
 
                 case PdfBoxBlock boxBlock:
                     var marginttop = (nfloat) PdfUnitConversion.ConvertMmsToPoints(boxBlock.MarginTop);

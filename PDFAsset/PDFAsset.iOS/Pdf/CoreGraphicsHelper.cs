@@ -3,6 +3,10 @@ using CoreGraphics;
 
 namespace PDFAsset.iOS.Pdf
 {
+    /// <summary>
+    /// This is helper class to vertical and horizontal
+    /// lines of given color, thickness and co-ordinates
+    /// </summary>
     public class CoreGraphicsHelper
     {
         public static void DrawHorizontalLineStartingAtPoint(CGContext graphicsContext, CGColor color, nfloat startX, nfloat endX,

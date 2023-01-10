@@ -51,6 +51,7 @@ namespace PDFAsset
             paginator.AddStaticImage(EmbeddedSourceror.SourceFor("Ibm_logo.png"), 5, 5, 40, 20)
                 .AddRegions(mainHeaderRegion);
             
+            //this will provide space between two blocks
             paginator.AddBlankRow();
 
             // Note: this document is mostly decimal-spaced, which is very uncommon

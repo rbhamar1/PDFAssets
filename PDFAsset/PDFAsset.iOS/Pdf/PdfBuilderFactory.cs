@@ -6,6 +6,10 @@ using Xamarin.Forms;
 [assembly: Dependency(typeof(PDFAsset.iOS.Pdf.PdfBuilderFactory))]
 namespace PDFAsset.iOS.Pdf
 {
+    /// <summary>
+    /// this class gives instance of IPdfBuilder which is used to generate the
+    /// final pdf file
+    /// </summary>
     public sealed class PdfBuilderFactory : IPdfBuilderFactory
     {
         public PdfBuilderFactory()

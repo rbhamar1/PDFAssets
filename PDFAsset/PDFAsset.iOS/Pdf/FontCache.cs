@@ -8,6 +8,9 @@ using UIKit;
 
 namespace PDFAsset.iOS.Pdf
 {
+    /// <summary>
+    /// This is class is used to get native font and scale it
+    /// </summary>
     public sealed class FontCache
     {
         public UIFont GetFont(PdfFont pdfFont)
