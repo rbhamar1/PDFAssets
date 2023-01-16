@@ -22,5 +22,3 @@ How to consume library?
 
 •	Add .dll file as a reference to the project
 •	Use components mentioned in section 1 to create and build PDF. E.g : Go to PDFAsset.iOS.Pdf.PdfBuilder file
-
-![image](https://user-images.githubusercontent.com/94822442/212685683-7293ded8-e23b-4b1e-ab48-9f72038441ed.png)
