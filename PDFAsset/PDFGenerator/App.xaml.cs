@@ -4,7 +4,7 @@ using Xamarin.Forms.Xaml;
 
 [assembly: XamlCompilation(XamlCompilationOptions.Compile)]
 
-namespace PDFAsset
+namespace PDFGenerator
 {
     public partial class App : Application
     {

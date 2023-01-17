@@ -6,7 +6,7 @@ using Foundation;
 using PDFLibrary;
 using UIKit;
 
-namespace PDFAsset.iOS.Pdf
+namespace PDFGenerator.iOS.Pdf
 {
     /// <summary>
     /// This is class is used to get native font and scale it

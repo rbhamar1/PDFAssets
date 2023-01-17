@@ -3,7 +3,7 @@ using System.Diagnostics;
 using System.IO;
 using Xamarin.Forms;
 
-namespace PDFAsset
+namespace PDFGenerator
 {
     public partial class MainPage
     {
@@ -18,7 +18,7 @@ namespace PDFAsset
             
             try
             {
-                var docFolderPath = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.Personal), "PDFAsset");
+                var docFolderPath = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.Personal), "PDFGenerator");
                 if (!Directory.Exists(docFolderPath)) {
                     Directory.CreateDirectory(docFolderPath);
                 }

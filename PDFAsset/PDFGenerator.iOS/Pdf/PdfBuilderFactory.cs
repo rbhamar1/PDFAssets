@@ -3,8 +3,8 @@ using PdfGenerator.Pdf;
 using PDFLibrary;
 using Xamarin.Forms;
 
-[assembly: Dependency(typeof(PDFAsset.iOS.Pdf.PdfBuilderFactory))]
-namespace PDFAsset.iOS.Pdf
+[assembly: Dependency(typeof(PDFGenerator.iOS.Pdf.PdfBuilderFactory))]
+namespace PDFGenerator.iOS.Pdf
 {
     /// <summary>
     /// this class gives instance of IPdfBuilder which is used to generate the

@@ -1,10 +1,10 @@
 ﻿using Foundation;
-using PDFAsset.iOS.Pdf;
+using PDFGenerator.iOS.Pdf;
 using PDFLibrary;
 using UIKit;
 using Xamarin.Forms;
 
-namespace PDFAsset.iOS
+namespace PDFGenerator.iOS
 {
     // The UIApplicationDelegate for the application. This class is responsible for launching the 
     // User Interface of the application, as well as listening (and optionally responding) to 
@@ -22,7 +22,7 @@ namespace PDFAsset.iOS
         public override bool FinishedLaunching(UIApplication app, NSDictionary options)
         {
             global::Xamarin.Forms.Forms.Init();
-            LoadApplication(new App());
+            LoadApplication(new PDFGenerator.App());
 
             return base.FinishedLaunching(app, options);
         }

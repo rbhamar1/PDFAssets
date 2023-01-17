@@ -88,3 +88,5 @@ PDFAsset/PDFAsset/obj/project.packagespec.json
 PDFAsset/PDFAsset/obj/rider.project.restore.info
 PDFLibrary/obj/PDFLibrary.csproj.nuget.dgspec.json
 PDFLibrary/obj/project.assets.json
+PDFAsset/PDFGenerator/obj/Debug/netstandard2.0/PDFGenerator.dll
+PDFAsset/PDFGenerator/obj/Debug/netstandard2.0/PDFGenerator.pdb

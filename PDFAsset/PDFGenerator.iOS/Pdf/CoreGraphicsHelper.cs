@@ -1,7 +1,7 @@
 using System;
 using CoreGraphics;
 
-namespace PDFAsset.iOS.Pdf
+namespace PDFGenerator.iOS.Pdf
 {
     /// <summary>
     /// This is helper class to vertical and horizontal

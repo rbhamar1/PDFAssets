@@ -4,7 +4,7 @@ using System.Linq;
 using Foundation;
 using UIKit;
 
-namespace PDFAsset.iOS
+namespace PDFGenerator.iOS
 {
     public class Application
     {

@@ -7,7 +7,7 @@ using PdfGenerator.Pdf;
 using PDFLibrary;
 using Xamarin.Forms;
 
-namespace PDFAsset
+namespace PDFGenerator
 {
     public sealed class TestPrintPdfFactory : ITestPrintPdfFactory
     {

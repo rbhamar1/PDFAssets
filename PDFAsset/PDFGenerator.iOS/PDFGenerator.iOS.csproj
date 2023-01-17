@@ -8,9 +8,9 @@
         <ProjectGuid>{6C0C1F5B-F18E-498F-8D1A-A779A30C5643}</ProjectGuid>
         <ProjectTypeGuids>{FEACFBD2-3405-455C-9665-78FE426C6842};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
         <OutputType>Exe</OutputType>
-        <RootNamespace>PDFAsset.iOS</RootNamespace>
+        <RootNamespace>PDFGenerator.iOS</RootNamespace>
         <IPhoneResourcePrefix>Resources</IPhoneResourcePrefix>
-        <AssemblyName>PDFAsset.iOS</AssemblyName>
+        <AssemblyName>PDFGenerator.iOS</AssemblyName>
         <MtouchHttpClientHandler>NSUrlSessionHandler</MtouchHttpClientHandler>
     </PropertyGroup>
     <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|iPhoneSimulator' ">
@@ -125,9 +125,9 @@
         <PackageReference Include="Xamarin.Forms" Version="5.0.0.2545" />
     </ItemGroup>
     <ItemGroup>
-        <ProjectReference Include="..\PDFAsset\PDFAsset.csproj">
-            <Project>{25FA0017-232C-4CB4-8B3C-DB573ABA06F9}</Project>
-            <Name>PDFAsset</Name>
+        <ProjectReference Include="..\PDFGenerator\PDFGenerator.csproj">
+            <Project>{59c41fe6-1c1e-4a23-a107-ca867ae93e47}</Project>
+            <Name>PDFGenerator</Name>
         </ProjectReference>
     </ItemGroup>
     <ItemGroup>

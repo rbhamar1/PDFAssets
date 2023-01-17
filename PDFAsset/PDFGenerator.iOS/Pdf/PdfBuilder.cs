@@ -12,7 +12,7 @@ using UIKit;
 using Xamarin.Forms;
 using Xamarin.Forms.Platform.iOS;
 
-namespace PDFAsset.iOS.Pdf
+namespace PDFGenerator.iOS.Pdf
 {
     //This class generates the final pdf
     public sealed class PdfBuilder : IPdfBuilder

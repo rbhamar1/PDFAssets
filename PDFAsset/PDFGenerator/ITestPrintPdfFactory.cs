@@ -1,6 +1,6 @@
 using PDFLibrary;
 
-namespace PDFAsset
+namespace PDFGenerator
 {
     public interface ITestPrintPdfFactory
     {
